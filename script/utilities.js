@@ -16,3 +16,8 @@ document.getElementById("clear-history-btn").addEventListener("click", function(
     const childContainer = document.getElementById("child-container");
     childContainer.classList.add("hidden");
 })
+
+// New Page open javascript----------------
+document.getElementById("middle-container-btn").addEventListener("click", function(){
+    window.location.href = "./click.html"
+})
