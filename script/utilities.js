@@ -21,3 +21,4 @@ document.getElementById("clear-history-btn").addEventListener("click", function(
 document.getElementById("middle-container-btn").addEventListener("click", function(){
     window.location.href = "./click.html"
 })
+

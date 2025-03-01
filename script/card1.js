@@ -30,4 +30,5 @@ document.getElementById("first-card-btn").addEventListener("click", function(){
 })
 
 
+// click.html er nav button--------
 
