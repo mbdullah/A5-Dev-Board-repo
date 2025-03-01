@@ -27,7 +27,10 @@ function showDate(){
     let today = new Date();
     let options = {weekday: "short", month: "short", day: "numeric", year: "numeric" };
     let formattedDate = today.toLocaleDateString('en-US', options);
-    document.getElementById("date").innerText = formattedDate;
+    formattedDate = formattedDate.replace(',', '');
+    let parts = formattedDate.split(" ");
+    let finalDate = `${parts[0]} <span class="font-bold">,<br>${parts[1]} ${parts[2]} ${parts[3]}</span>`;
+    document.getElementById("date").innerHTML = finalDate;
 }
 showDate();
 
