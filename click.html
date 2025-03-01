@@ -29,37 +29,82 @@
     <section class="max-w-screen-2xl mx-auto space-y-10 pb-10 px-2 md:px-4">
         <!-- questions no : 1 -->
         <div class="bg-white rounded-xl p-3 md:p-7 shadow">
-            <h3 class="font-bold text-[20px] md:text-3xl border-b-2 border-dashed border-blue-100 mb-5 pb-5">Question-1: What are the different ways to select an element in the DOM?</h3>
-            <p class="text-[16px] md:text-[20px] text-gray-600"> <span class="font-semibold">There are different ways to select an element in the DOM. They are written below :</span> <br>
-                <span class="font-semibold">1. getElementById:</span> When a specific element is needed, it is used by taking the I'd name of that element. Due to which that element can be accessed very easily.
+            <h3 class="font-bold text-[20px] md:text-3xl border-b-2 border-dashed border-blue-100 mb-5 pb-5">
+                Question-1:    What are the different ways to select an element in the DOM?
+            </h3>
+            <p class="text-[16px] md:text-[20px] text-gray-600"> 
+                <span class="font-semibold">
+                    There are different ways to select an element in the DOM. They are written below :
+                </span> <br>
+                <span class="font-semibold">
+                    1. getElementById:
+                </span> 
+                  When a specific element is needed, it is used by taking the I'd name of that element. Due to which that element can be accessed very easily.
                 <br>
-                <span class="font-semibold">2. getElementsByClassName:</span> When you want to get some elements together, it is used by giving the same Class name of each element.
+                <span class="font-semibold">
+                    2. getElementsByClassName:
+                </span> 
+                  When you want to get some elements together, it is used by giving the same Class name of each element.
                 <br>
-                <span class="font-semibold">3. getElementsByTagName:</span> When you need all the elements with the same Tag, it is used.
+                <span class="font-semibold">
+                    3. getElementsByTagName:
+                </span> 
+                  When you need all the elements with the same Tag, it is used.
                 <br>
-                <span class="font-semibold">4. quarySelectorAll:</span> This is also used when you need all the elements with the same class name.
+                <span class="font-semibold">
+                    4. quarySelectorAll:
+                </span> 
+                  This is also used when you need all the elements with the same class name.
                 <br>
-                <span class="font-semibold">5.quarySelector:</span> When you need to get that element with its class name, it is used.</p>
+                <span class="font-semibold">
+                    5.quarySelector:
+                </span>
+                  When you need to get that element with its class name, it is used.
+            </p>
         </div>
         <!-- questions no : 2 -->
         <div class="bg-white rounded-xl p-7 shadow">
             <h3 class="font-bold text-3xl border-b-2 border-dashed border-blue-100 mb-5 pb-5">Question-2: What is the difference between innerHTML, innerText, and textContent ?</h3>
-            <p class="text-[20px] text-gray-600">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio voluptates accusantium quibusdam velit inventore tenetur, obcaecati facere earum deleniti cum non suscipit, eius numquam consectetur delectus magnam dolorum laudantium, esse impedit alias. Id cumque quam iste mollitia fuga vel rem eos impedit! Voluptatibus recusandae cupiditate dicta error explicabo, reprehenderit ipsa expedita. Nam quasi error delectus, vitae, velit commodi id dicta repellat eveniet obcaecati sed labore recusandae placeat magni odit, maiores eum porro! Cumque, expedita vero accusantium earum soluta culpa labore quo iste sunt, omnis corrupti nisi qui optio ea fugiat natus deleniti ullam dolore magnam distinctio minima minus? Dolores, similique!</p>
+            <p class="text-[16px] md:text-[20px] text-gray-600">
+                <span class="font-semibold">
+                    These three properties are used to get or set the inner content of an element in the DOM (Document Object Model). However, they work differently.
+                </span> <br> 
+                <span class="font-semibold">
+                    1. innerHTML :    
+                </span>
+                It gets or sets the full HTML code (including tags) of an element and it parses the HTML and renders the inner tags. It is possible to inject new HTML tags through it. <br> 
+                <span class="font-semibold">
+                    2. innerText :
+                </span> 
+                When we are needs inner text in a tags then we are use the innerText property. By using innerText we can also set the internal value of a tag. <br> 
+                <span class="font-semibold">
+                     3. textContent :
+                </span> 
+                    This returns the full text content of the element, even if hidden by CSS.
+                    Ignores HTML tags and shows the full text.
+            </p>
         </div>
         <!-- questions no : 3 -->
         <div class="bg-white rounded-xl p-7 shadow">
             <h3 class="font-bold text-3xl border-b-2 border-dashed border-blue-100 mb-5 pb-5">Question-3: What is event delegation in the DOM?</h3>
-            <p class="text-[20px] text-gray-600">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio voluptates accusantium quibusdam velit inventore tenetur, obcaecati facere earum deleniti cum non suscipit, eius numquam consectetur delectus magnam dolorum laudantium, esse impedit alias. Id cumque quam iste mollitia fuga vel rem eos impedit! Voluptatibus recusandae cupiditate dicta error explicabo, reprehenderit ipsa expedita. Nam quasi error delectus, vitae, velit commodi id dicta repellat eveniet obcaecati sed labore recusandae placeat magni odit, maiores eum porro! Cumque, expedita vero accusantium earum soluta culpa labore quo iste sunt, omnis corrupti nisi qui optio ea fugiat natus deleniti ullam dolore magnam distinctio minima minus? Dolores, similique!</p>
+            <p class="text-[20px] text-gray-600">
+                Event delegation is a technique of javascript, where an event listener is set on a parent element and its child element's event is handled. <br> This is especially useful when adding event handlers for multiple child elements of the same type.
+            </p>
         </div>
         <!-- questions no : 4 -->
         <div class="bg-white rounded-xl p-7 shadow">
             <h3 class="font-bold text-3xl border-b-2 border-dashed border-blue-100 mb-5 pb-5">Question-4: What is event bubbling in the DOM?</h3>
-            <p class="text-[20px] text-gray-600">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio voluptates accusantium quibusdam velit inventore tenetur, obcaecati facere earum deleniti cum non suscipit, eius numquam consectetur delectus magnam dolorum laudantium, esse impedit alias. Id cumque quam iste mollitia fuga vel rem eos impedit! Voluptatibus recusandae cupiditate dicta error explicabo, reprehenderit ipsa expedita. Nam quasi error delectus, vitae, velit commodi id dicta repellat eveniet obcaecati sed labore recusandae placeat magni odit, maiores eum porro! Cumque, expedita vero accusantium earum soluta culpa labore quo iste sunt, omnis corrupti nisi qui optio ea fugiat natus deleniti ullam dolore magnam distinctio minima minus? Dolores, similique!</p>
+            <p class="text-[20px] text-gray-600">
+                Event Bubbling is a behavior of JavaScript DOM Events, This is a process of event handling where an event first triggers a child element,  then peopagates step by step to the parent elements  above. <br> And it can be stopped by stopPropagate and stopImiditePropagate.
+            </p>
         </div>
         <!-- questions no : 5 -->
         <div class="bg-white rounded-xl p-7 shadow">
             <h3 class="font-bold text-3xl border-b-2 border-dashed border-blue-100 mb-5 pb-5">Question-5: How do you create, add, and remove elements using JavaScript?</h3>
-            <p class="text-[20px] text-gray-600">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio voluptates accusantium quibusdam velit inventore tenetur, obcaecati facere earum deleniti cum non suscipit, eius numquam consectetur delectus magnam dolorum laudantium, esse impedit alias. Id cumque quam iste mollitia fuga vel rem eos impedit! Voluptatibus recusandae cupiditate dicta error explicabo, reprehenderit ipsa expedita. Nam quasi error delectus, vitae, velit commodi id dicta repellat eveniet obcaecati sed labore recusandae placeat magni odit, maiores eum porro! Cumque, expedita vero accusantium earum soluta culpa labore quo iste sunt, omnis corrupti nisi qui optio ea fugiat natus deleniti ullam dolore magnam distinctio minima minus? Dolores, similique!</p>
+            <p class="text-[20px] text-gray-600">
+                Using createElement and removeChild <br>
+                In this approach, we are using the createElement() method to dynamically add a new HTML tag and the removeChild method to remove it.
+            </p>
         </div>
     </section>
     
