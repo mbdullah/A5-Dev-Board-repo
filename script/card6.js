@@ -27,5 +27,4 @@ document.getElementById("six-card-btn").addEventListener("click", function(){
     // step 5 btn disabled
     this.disabled = true;
     this.style.backgroundColor  = "#3952f135";
-    alert("Congrats!!! You have Completed all the current task")
 })

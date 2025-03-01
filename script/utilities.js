@@ -2,6 +2,9 @@
 function getInnerTextById (id){
     const value = document.getElementById(id).innerText;
     const convertedValue = parseInt(value);
+    if(convertedValue === 1){
+        alert("Congrats!!! You have Completed all the current task");
+    }
     return convertedValue;
 }
 
