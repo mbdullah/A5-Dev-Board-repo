@@ -22,3 +22,11 @@ document.getElementById("middle-container-btn").addEventListener("click", functi
     window.location.href = "./click.html"
 })
 
+// Webpage er vitora right date dakhanor function:----------------
+function showDate(){
+    let today = new Date();
+    let options = {weekday: "short", month: "short", day: "numeric", year: "numeric" };
+    let formattedDate = today.toLocaleDateString('en-US', options);
+    document.getElementById("date").innerText = formattedDate;
+}
+showDate();
