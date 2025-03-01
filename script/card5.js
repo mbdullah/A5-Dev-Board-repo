@@ -15,7 +15,7 @@ document.getElementById("five-card-btn").addEventListener("click", function(){
     const div = document.createElement('div');
     div.classList.add("bg-[#F4F7FF]", "rounded-[8px]", "w-[90%]", "mx-auto")
     const p = document.createElement("p");
-    p.classList.add("p-5", "text-[#0000008e]");
+    p.classList.add("p-5", "text-[#0000008e]", "font-semibold");
     function updateTime (){
         const now = new Date();
         const timeString = now.toLocaleTimeString();
