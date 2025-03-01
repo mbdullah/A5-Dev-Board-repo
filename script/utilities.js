@@ -20,15 +20,17 @@ document.getElementById("clear-history-btn").addEventListener("click", function(
     childContainer.classList.add("hidden");
     childContainer.dataset.cleared = "true";
 })
-document.querySelectorAll(".massege-btn").forEach(button => {
-    button.addEventListener("click", function(){
+let buttons = document.querySelectorAll(".massege-btn");
+for(let button of buttons){
+    button.addEventListener("click", function(){ 
         const childContainer = document.getElementById("child-container");
+        let childContainerData = false;
         if(childContainer.dataset.cleared === "true"){
             childContainer.classList.remove("hidden");
             childContainer.dataset.cleared = "false";
-        }
+        };
     });
-});
+};
 
 // New Page open javascript----------------
 document.getElementById("middle-container-btn").addEventListener("click", function(){
