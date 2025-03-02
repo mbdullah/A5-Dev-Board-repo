@@ -1,4 +1,4 @@
-document.getElementById("five-card-btn").addEventListener("click", function(){
+document.getElementById("five-card-btn").addEventListener("click", function(event){
     // step no 1
     alert("Board Update Successfully");
     // step no 2
@@ -25,6 +25,6 @@ document.getElementById("five-card-btn").addEventListener("click", function(){
     childContainer.appendChild(div);
     updateTime();
     // step 5 btn disabled
-    this.disabled = true;
-    this.style.backgroundColor  = "#3952f135";
+    event.target.disabled = true;
+    event.target.style.backgroundColor  = "#3952f135";
 })

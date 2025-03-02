@@ -18,13 +18,14 @@ function getSum (id, sum){
 document.getElementById("clear-history-btn").addEventListener("click", function(){
     const childContainer = document.getElementById("child-container");
     childContainer.classList.add("hidden");
+    childContainer.innerHTML = "";
     childContainer.dataset.cleared = "true";
 })
 let buttons = document.querySelectorAll(".massege-btn");
 for(let button of buttons){
     button.addEventListener("click", function(){ 
         const childContainer = document.getElementById("child-container");
-        let childContainerData = false;
+        // let childContainerData = false;
         if(childContainer.dataset.cleared === "true"){
             childContainer.classList.remove("hidden");
             childContainer.dataset.cleared = "false";
